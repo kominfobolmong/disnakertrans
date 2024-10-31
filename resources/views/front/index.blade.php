@@ -8,7 +8,7 @@
  @include('front.section.banner')
  <!-- banner-area-end -->
 
-<section class="testimonial">
+{{-- <section class="testimonial">
     <div class="container text-center">
         <div class="row justify-content-center">
             <div class="col-10">
@@ -44,7 +44,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
  <!-- artikel-area -->
  @include('front.section.artikel')

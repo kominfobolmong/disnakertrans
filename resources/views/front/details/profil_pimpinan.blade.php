@@ -1,7 +1,7 @@
 @extends('front.app')
 
-@section('title', 'Profil Inspektur')
-@section('breadcrumb', 'Profil Inspektur')
+@section('title', 'Profil Pimpinan')
+@section('breadcrumb', 'Profil Pimpinan')
 @section('content')
 
 <!-- breadcrumb-area -->
@@ -18,7 +18,7 @@
                 </div> --}}
 
                 <div class="services__details__content">
-                    <img src="{{ Storage::url($item->foto_pimpinan ?? null) }}" alt="foto-inspektur" width="300" style="float: left;margin-right: 20px;border: 2px solid #eee;border-radius: 5px;">
+                    <img src="{{ Storage::url($item->foto_pimpinan ?? null) }}" alt="foto-pimpinan" width="300" style="float: left;margin-right: 20px;border: 2px solid #eee;border-radius: 5px;">
                     <p>{!! $item->kata_sambutan ?? null !!}</p>
                 </div>
             </div>

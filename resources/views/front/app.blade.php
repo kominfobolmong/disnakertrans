@@ -4,9 +4,9 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>@yield('title') - Inspektorat Daerah Kabupaten Bolaang Mongondow</title>
-        <meta name="description" content="Website Resmi Inspektorat Daerah Kabupaten Bolaang Mongondow">
-        <meta name="keyword" content="inspektorat, kabupaten bolaang mongondow">
+        <title>@yield('title') - Dinas Tenaga Kerja dan Transmigrasi Kabupaten Bolaang Mongondow</title>
+        <meta name="description" content="Website Resmi Dinas Tenaga Kerja dan Transmigrasi Kabupaten Bolaang Mongondow">
+        <meta name="keyword" content="disnakertrans, kabupaten bolaang mongondow">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="shortcut icon" type="image/x-icon" href="{{ asset('templates/home/logo.png') }}">
@@ -59,7 +59,7 @@
                         <div class="footer__widget">
                             <div class="fw-title">
                                 <h5 class="sub-title">Alamat</h5>
-                                <h4 class="title">Inspektorat Daerah</h4>
+                                <h4 class="title">disnakertrans</h4>
                             </div>
                             <div class="footer__widget__text">
                                 <p>{{ $contact->alamat ?? null }}</p>
@@ -87,8 +87,8 @@
                                 <p>Telepon: {{ $contact->no_telp ?? null }}</p>
                                 <p>Email: {{ $contact->email ?? null }}</p>
                                 <ul class="footer__social__list">
-                                    <li><a href="https://www.facebook.com/profile.php?id=61554373267272"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="https://www.instagram.com/inspektorat_bolmong/"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                                     <li><a href="#"><i class="fab fa-youtube"></i></a></li>
                                 </ul>
                             </div>
@@ -99,7 +99,7 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="copyright__text text-center">
-                                <p>Copyright @ {{ date('Y') }} Inspektorat Daerah Kab. Bolaang Mongondow</p>
+                                <p>Copyright @ {{ date('Y') }} Dinas Tenaga Kerja dan Transmigrasi Kab. Bolaang Mongondow</p>
                             </div>
                         </div>
                     </div>

@@ -9,28 +9,29 @@
                             <div class="logo">
                                 <a href="/">
                                     <div class="logo-brand d-flex">
-                                        <img src="{{ asset('templates/home/logo.png') }}" alt="logo" width="50" />
-                                        <h4 style="margin-left: 5px;">INSPEKTORAT DAERAH <br> KAB. BOLAANG MONGONDOW</h4>
+                                        <img src="{{ asset('templates/home/bolmongkab.png') }}" alt="logo" width="50" />
+                                        <h4 style="margin-left: 5px;">DINAS TENAGA KERJA DAN TRANSMIGRASI <br> KAB. BOLAANG MONGONDOW</h4>
                                     </div>
                                 </a>
                             </div>
                             <div class="navbar__wrap main__menu d-none d-xl-flex">
                                 <ul class="navigation">
-                                    <li class="{{ setActive('beranda') }}"><a href="{{ route('beranda') }}">Beranda</a></li>
+                                    <li class="{{ setActive('/') }}"><a href="/">Beranda</a></li>
                                     {{-- <li class="{{ setActive('profil-dinas') }}"><a href="{{ route('profil_dinas') }}">Profil</a></li> --}}
 
                                     <li class="menu-item-has-children {{ setActive('profil') }}"><a href="#">Profil</a>
                                         <ul class="sub-menu">
-                                            <li><a href="{{ route('arti_lambang') }}">Arti Logo/Lambang</a></li>
+                                            {{-- <li><a href="{{ route('arti_lambang') }}">Arti Logo/Lambang</a></li> --}}
                                             <li><a href="{{ route('visi_misi') }}">Visi dan Misi</a></li>
                                             <li><a href="{{ route('tugas_fungsi') }}">Tugas dan Fungsi</a></li>
                                             <li><a href="{{ route('struktur_organisasi') }}">Struktur Organisasi</a></li>
-                                            <li><a href="{{ route('profil_pimpinan') }}">Profil Inspektur</a></li>
+                                            <li><a href="{{ route('profil_pimpinan') }}">Profil Pimpinan</a></li>
                                             <li><a href="{{ route('pegawai') }}">Pegawai</a></li>
                                         </ul>
                                     </li>
 
                                     <li class="{{ setActive('news') }}"><a href="{{ route('news') }}">Berita</a></li>
+                                    <li class=""><a href="https://bursakerja.bolmongkab.go.id" target="_blank">Bursa Kerja</a></li>
 
                                     <li class="menu-item-has-children {{ setActive('galeri') }}"><a href="#">Galeri</a>
                                         <ul class="sub-menu">

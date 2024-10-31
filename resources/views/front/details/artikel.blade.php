@@ -1,7 +1,7 @@
 @extends('front.app')
 
-@section('title', 'Berita Inspektorat')
-@section('breadcrumb', 'Berita Inspektorat')
+@section('title', 'Berita')
+@section('breadcrumb', 'Berita')
 @section('content')
 
 <!-- breadcrumb-area -->

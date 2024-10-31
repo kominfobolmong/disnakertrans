@@ -30,7 +30,7 @@
                                 @enderror
                             </div>
 
-                            <div class="form-group">
+                            {{-- <div class="form-group">
                                 <label>DESKRIPSI</label>
                                 <input type="text" name="deskripsi" value="{{ old('deskripsi') ?? $link->deskripsi }}" placeholder="Masukkan Deskripsi" class="form-control @error('deskripsi') is-invalid @enderror">
 
@@ -39,7 +39,7 @@
                                     {{ $message }}
                                 </div>
                                 @enderror
-                            </div>
+                            </div> --}}
 
                             <div class="form-group">
                                 <label>URL</label>

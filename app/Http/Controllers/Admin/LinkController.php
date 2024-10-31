@@ -63,7 +63,7 @@ class LinkController extends Controller
 
         $link = Link::create([
             'name' => $request->input('name'),
-            'deskripsi' => $request->input('deskripsi'),
+            // 'deskripsi' => $request->input('deskripsi'),
             'url'  => $request->input('url'),
             'image'  => ($request->file('image')) ? $image : null,
         ]);
@@ -121,7 +121,7 @@ class LinkController extends Controller
 
         $link = Link::findOrFail($link->id)->update([
             'name' => $request->input('name'),
-            'deskripsi' => $request->input('deskripsi'),
+            // 'deskripsi' => $request->input('deskripsi'),
             'url'  => $request->input('url'),
             'image' => ($request->file('image')) ? $image : $link->image,
         ]);

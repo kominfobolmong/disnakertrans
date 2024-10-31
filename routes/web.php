@@ -25,7 +25,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware('visitor')->group(function () {
     Route::get('/', [PageController::class, 'index']);
-    Route::get('/beranda', [PageController::class, 'beranda'])->name('beranda');
+    // Route::get('/beranda', [PageController::class, 'beranda'])->name('beranda');
     Route::get('/news', [PageController::class, 'news'])->name('news');
     Route::get('/news/{news:slug}', [PageController::class, 'news_detail'])->name('news-detail');
 
@@ -46,7 +46,7 @@ Route::middleware('visitor')->group(function () {
     Route::get('/kontak', [PageController::class, 'kontak'])->name('kontak');
 });
 
-Route::prefix('bolmongmaju/inspektorat')->group(function () {
+Route::prefix('bolmongmaju/disnakertrans')->group(function () {
     Auth::routes([
         'register' => false,
         'reset'    => false,  // for resetting passwords

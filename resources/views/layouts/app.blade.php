@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Dashboard &mdash; Inspektorat Daerah Kabupaten Bolaang Mongondow</title>
-    <link rel="shortcut icon" href="{{ asset('templates/home/logo-inspektorat.png') }}" type="image/x-icon">
+    <title>Dashboard &mdash; Dinas Tenaga Kerja dan Transmigrasi Kabupaten Bolaang Mongondow</title>
+    <link rel="shortcut icon" href="{{ asset('templates/home/bolmongkab.png') }}" type="image/x-icon">
     <!-- General CSS Files -->
     <link rel="stylesheet" href="{{ asset('assets/modules/bootstrap/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/modules/fontawesome/css/all.min.css') }}">
@@ -59,10 +59,10 @@
             <div class="main-sidebar sidebar-style-2">
                 <aside id="sidebar-wrapper">
                     <div class="sidebar-brand">
-                        <a href="#">INSPEKTORAT</a>
+                        <a href="#">DISNAKERTRANS</a>
                     </div>
                     <div class="sidebar-brand sidebar-brand-sm">
-                        <a href="#">INSPEKTORAT</a>
+                        <a href="#">DISNAKERTRANS</a>
                     </div>
                     <ul class="sidebar-menu">
                         <li class="menu-header">MAIN MENU</li>
@@ -183,7 +183,7 @@
 
             <footer class="main-footer">
                 <div class="footer-left">
-                    Copyright &copy; {{ date('Y') }} <div class="bullet"></div> Inspektorat Daerah Kabupaten Bolaang Mongondow <div class="bullet"></div> All Rights
+                    Copyright &copy; {{ date('Y') }} <div class="bullet"></div> Dinas Tenaga Kerja dan Transmigrasi Kabupaten Bolaang Mongondow <div class="bullet"></div> All Rights
                     Reserved.
                 </div>
                 <div class="footer-right">

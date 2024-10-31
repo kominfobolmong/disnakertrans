@@ -18,13 +18,13 @@ use Illuminate\Support\Facades\DB;
 class PageController extends Controller
 {
 
-    public function index()
-    {
-        $apps = Link::latest()->get();
-        return view('front.home', compact('apps'));
-    }
+    // public function index()
+    // {
+    //     $apps = Link::latest()->get();
+    //     return view('front.home', compact('apps'));
+    // }
 
-    public function beranda()
+    public function index()
     {
         $sliders = Slider::take(2)->latest()->get();
         $artikel = News::take(9)->latest()->get();
