@@ -1,9 +1,9 @@
-## Inspektorat Daerah Kab. Bolaang Mongondow
+## Dinas Tenaga Kerja dan Transmigrasi Kab. Bolaang Mongondow
 
-Website Resmi Inspektorat Daerah Kabupaten Bolaang Mongondow
-created 27 Maret 2024
+Website Resmi Dinas Tenaga Kerja dan Transmigrasi Kabupaten Bolaang Mongondow
+created 31 Oktober 2024
 
 -   Laravel 8
--   Lomba Inovasi Akselerasi Pengawasan
+-   PIM 3 Sek ip disnaker
 
 Sukur Moanto'
