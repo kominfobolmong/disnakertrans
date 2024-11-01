@@ -25,7 +25,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware('visitor')->group(function () {
     Route::get('/', [PageController::class, 'index']);
-    // Route::get('/beranda', [PageController::class, 'beranda'])->name('beranda');
     Route::get('/news', [PageController::class, 'news'])->name('news');
     Route::get('/news/{news:slug}', [PageController::class, 'news_detail'])->name('news-detail');
 

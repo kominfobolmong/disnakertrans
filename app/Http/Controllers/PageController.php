@@ -27,8 +27,7 @@ class PageController extends Controller
         $visitors = DB::table('visitors')->count();
         $visitor_today = DB::table('visitors')->where('date', today())->count();
 
-        return view('front.index', compact('artikel', 'sliders', 'links', 'contact', 'visitors',
-            'visitor_today',));
+        return view('front.index', compact('artikel', 'sliders', 'links', 'contact', 'visitors', 'visitor_today'));
     }
 
     public function arti_lambang()
