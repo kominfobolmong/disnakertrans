@@ -17,13 +17,6 @@ use Illuminate\Support\Facades\DB;
 
 class PageController extends Controller
 {
-
-    // public function index()
-    // {
-    //     $apps = Link::latest()->get();
-    //     return view('front.home', compact('apps'));
-    // }
-
     public function index()
     {
         $sliders = Slider::take(2)->latest()->get();
@@ -31,7 +24,11 @@ class PageController extends Controller
         $links = Link::latest()->get();
         $contact = Contact::first();
 
-        return view('front.index', compact('artikel', 'sliders', 'links', 'contact'));
+        $visitors = DB::table('visitors')->count();
+        $visitor_today = DB::table('visitors')->where('date', today())->count();
+
+        return view('front.index', compact('artikel', 'sliders', 'links', 'contact', 'visitors',
+            'visitor_today',));
     }
 
     public function arti_lambang()
