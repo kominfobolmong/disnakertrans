@@ -12,6 +12,7 @@
  @include('front.section.artikel')
  <!-- artikel-area-end -->
 
+ {{-- @include('front.section.prosedur') --}}
 
  @include('front.section.infodata')
 
